@@ -27,6 +27,7 @@
 .row_footer {
     display: flex;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .debug [class^="col_"] {
@@ -104,4 +105,12 @@ section {
 .green {
     background-color: #228B22;
     height: 470px;
+}
+
+.black {
+    background-color: #23272A;
+}
+
+.aqua {
+    background-color: #7FFFD4;
 }
