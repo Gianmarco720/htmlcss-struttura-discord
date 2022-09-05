@@ -7,6 +7,7 @@
 
 .container{
     width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -19,6 +20,10 @@
     justify-content: space-between;
 }
 
+.row_prefooter {
+    display: flex;
+}
+
 .row_footer {
     display: flex;
     justify-content: space-between;
@@ -26,10 +31,6 @@
 
 .debug [class^="col_"] {
     background-color: #DAA520;
-}
-
-.debug [class^="grey"] {
-    background-color: grey;
 }
 
 /* #region colonne */
@@ -74,6 +75,10 @@ header {
     background-color: #ADD8E6;
 }
 
+section {
+    padding: 1rem;
+}
+
 .blue {
     padding: 1rem;
     background-color: #00008B;
@@ -86,11 +91,17 @@ header {
     width: 750px;
 }
 
-.fourth_section {
-    background-color: green;
-    height: 400px;
+.grey {
+    background-color: #D3D3D3;
 }
 
-.third {
-    background-color: black;
+.foot_grey {
+    padding: 1rem;
+    background-color: #D3D3D3;
+    height: 500px;
+}
+
+.green {
+    background-color: #228B22;
+    height: 470px;
 }
