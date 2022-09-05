@@ -12,7 +12,6 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -22,15 +21,27 @@
 }
 
 .col_1 {
-    width: calc((100 % / 12) * 1);
+    width: calc((100% / 12) * 1);
 }
 
 .col_2 {
-    width: calc((100 % / 12) * 2);
+    width: calc((100% / 12) * 2);
 }
 
 .col_3 {
-    width: calc((100 % / 12) * 3);
+    width: calc((100% / 12) * 3);
+}
+
+.col_4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col_5 {
+    width: calc((100% / 12) * 5);
+}
+
+.col_6 {
+    width: calc((100% / 12) * 6);
 }
 /* #endregion utilities */
 
@@ -41,9 +52,10 @@ header {
 .first {
     padding: 1rem;
     background-color: blue;
-    height: 300px;
+    height: 200px;
 }
 
 .first p {
     background-color: blueviolet;
 }
+
