@@ -12,14 +12,27 @@
 
 .row {
     display: flex;
+}
+
+.row_header {
+    display: flex;
     justify-content: space-between;
 }
 
-/* #region utilities */
-.debug [class^="col_"] {
-    background-color: chocolate;
+.row_footer {
+    display: flex;
+    justify-content: space-between;
 }
 
+.debug [class^="col_"] {
+    background-color: #DAA520;
+}
+
+.debug [class^="grey"] {
+    background-color: grey;
+}
+
+/* #region colonne */
 .col_1 {
     width: calc((100% / 12) * 1);
 }
@@ -43,20 +56,34 @@
 .col_6 {
     width: calc((100% / 12) * 6);
 }
-/* #endregion utilities */
+
+.col_7 {
+    width: calc((100% / 12) * 7);
+}
+
+.col_8 {
+    width: calc((100% / 12) * 8);
+}
+
+.col_9 {
+    width: calc((100% / 12) * 9);
+}
+/* #endregion colonne */
 
 header {
-    background-color: aqua;
+    background-color: #ADD8E6;
 }
 
-.first {
+.blue {
     padding: 1rem;
-    background-color: blue;
-    height: 200px;
+    background-color: #00008B;
+    height: 300px;
 }
 
-.first p {
-    background-color: blueviolet;
+.violet {
+    background-color: #EE82EE;
+    height: 270px;
+    width: 750px;
 }
 
 .fourth_section {
